@@ -20,10 +20,12 @@ const removeUser=(id)=>{
         return {error: "Error with delete user!"};
     }
 }
-const getUser=(id)=>{
-    const user= users.find((user)=>user.id===id);
-    return {user};
-}
+// const getUser=(id)=>{
+//     console.log("users in users", users);
+//     const user= users.find((user)=>user.id===id);
+//     return user;
+// }
+const getUser = (id) => users.find((user) => user.id === id);
 const getUsersInRoom=(room)=>{
     users.filter((user)=>user.room===room);
 }
