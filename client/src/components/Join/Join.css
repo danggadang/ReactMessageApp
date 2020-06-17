@@ -38,7 +38,7 @@ html, body {
     border-bottom: 2px solid white;
   }
   
-  .joinButton {
+  .button {
       color: #fff !important;
       text-transform: uppercase;
       text-decoration: none;
